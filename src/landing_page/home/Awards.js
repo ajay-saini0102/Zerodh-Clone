@@ -1,20 +1,21 @@
-import React from 'react';
+import React from "react";
 
 function Awards() {
-  return ( 
+  return (
     <>
-      <div className='container mt-5 mb-5'>
-        <div className='row mt-5'>
-          <div className='col-6'>
-          <img src='media/images/largestBroker.svg' className=''/>
+      <div className="container mt-5 mb-5">
+        <div className="row mt-5">
+          <div className="col-6">
+            <img src="media/images/largestBroker.svg" className="" />
           </div>
-          <div className='col-6 p-4'>
-            <h2 className='mb-4'>Largest stock broker in India</h2>
-            <p className='mb-4'>
-              1.5+ Crore Zerodha clients contribute to over 15% of all retail order volumes in India daily by trading and investing in:
+          <div className="col-6 p-4">
+            <h2 className="mb-4">Largest stock broker in India</h2>
+            <p className="mb-4">
+              1.5+ Crore Zerodha clients contribute to over 15% of all retail
+              order volumes in India daily by trading and investing in:
             </p>
-            <div className='row'>
-              <div className='col-6 mb-4'>
+            <div className="row">
+              <div className="col-6 mb-4">
                 <ul>
                   <li>
                     <p>Futures and Options</p>
@@ -27,7 +28,7 @@ function Awards() {
                   </li>
                 </ul>
               </div>
-              <div className='col-6 mb-4'>
+              <div className="col-6 mb-4">
                 <ul>
                   <li>
                     <p>Stocks & IPOs</p>
@@ -40,9 +41,8 @@ function Awards() {
                   </li>
                 </ul>
               </div>
-            <img src='media/images/pressLogos.png' />
+              <img src="media/images/pressLogos.png" />
             </div>
-
           </div>
         </div>
       </div>
