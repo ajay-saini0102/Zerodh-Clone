@@ -27,7 +27,7 @@ function Education() {
               India for all your market related queries.
             </p>
             <a href="" className="mt-2" style={{ textDecoration: "none" }}>
-              TradingQ<i class="fa-solid fa-arrow-right mx-1"></i>
+              TradingQ&A<i class="fa-solid fa-arrow-right mx-1"></i>
             </a>
           </div>
         </div>
