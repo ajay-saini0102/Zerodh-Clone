@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <>
-      <div className="container">
+    <div style={{backgroundColor:"#FBFBFB"}}>
+      <div className="container pt-5">
         <div className="row">
           <div className="col-3">
             <img
@@ -271,7 +271,7 @@ function Footer() {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
