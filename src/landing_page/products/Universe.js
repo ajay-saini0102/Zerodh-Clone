@@ -15,40 +15,66 @@ function Universe() {
           Extend your trading and investment experience even further with our
           partner platforms
         </p>
-        <div className="col-4 p-3">
+        <div className="col-4">
           <a href="">
-          <img src="media/images/smallcaseLogo.png" style={{ width: "60%" }} />
-          <p style={{color:"black"}} className="text-muted mt-3">Thematic investment platform</p>
-          </a>
-          <a href="">
-          <img src="media/images/zerodhaFundhouse.png" style={{ width: "50%" }} className="mt-5"/>
-          <p style={{color:"black"}} className="text-muted mt-3">Asset management</p>
-          </a>
-         
-        </div>
-        <div className="col-4 p-3">
-        <a href="">
-          <img src="media/images/streakLogo.png" style={{ width: "50%" }} />
-          <p style={{color:"black"}} className="text-muted mt-3">Algo & strategy platform</p>
-          </a>
-          <a href="">
-          <img src="media/images/tijori.svg" style={{ width: "40%" }} className="mt-5"/>
-          <p style={{color:"black"}} className="text-muted">Fundamental research platform</p>
+            <img src="media/images/smallcaseLogo.png" />
+            <p className="text-muted mt-2">Thematic investment platform</p>
           </a>
         </div>
-        <div className="col-4 p-3">
+        <div className="col-4">
           <a href="">
-          <img src="media/images/sensibullLogo.svg" style={{width:"16rem"}} />
-          <p style={{color:"black"}} className="text-muted mt-3">Options trading platform</p>
+            <img src="media/images/streakLogo.png" style={{ width: "45%" }} />
+            <p className="text-muted mt-2">Algo & strategy platform</p>
           </a>
+        </div>
+        <div className="col-4">
           <a href="">
-          <img src="media/images/dittoLogo.png" style={{ width: "35%" }} className="mt-5"/>
-          <p style={{color:"black"}} className="text-muted mt-2">Insurance</p>
+            <img
+              src="media/images/sensibullLogo.svg"
+              style={{ width: "14rem" }}
+            />
+            <p className="text-muted mt-3">Options trading platform</p>
+          </a>
+        </div>
+        <div className="col-4">
+          <a href="">
+            <img
+              src="media/images/zerodhaFundhouse.png"
+              style={{ width: "50%" }}
+              className="mt-5"
+            />
+            <p className="text-muted mt-2">Asset management</p>
+          </a>
+        </div>
+        <div className="col-4">
+          <a href="">
+            <img
+              src="media/images/tijori.svg"
+              style={{ width: "40%" }}
+              className="mt-5"
+            />
+            <p className="text-muted">Fundamental research platform</p>
+          </a>
+        </div>
+
+        <div className="col-4">
+          <a href="">
+            <img
+              src="media/images/dittoLogo.png"
+              style={{ width: "35%" }}
+              className="mt-5"
+            />
+            <p className="text-muted mt-2">Insurance</p>
           </a>
         </div>
       </div>
-      <div className="mt-4">
-      <button className='btn btn-primary p-2 fs-5' style={{width:"16%", margin: "0 auto"}}>Sign up now</button>
+      <div className="mt-5">
+        <button
+          className="btn btn-primary p-2 fs-5"
+          style={{ width: "16%", margin: "0 auto" }}
+        >
+          Sign up now
+        </button>
       </div>
     </div>
   );
