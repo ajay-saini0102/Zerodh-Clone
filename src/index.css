@@ -22,3 +22,12 @@ a{
   color: black;
   margin : 0 0.5rem 0 0.5rem;
 }
+#supportBox{
+  background-color: #387ED1;
+  color: white !important;
+}
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10rem;
+}
